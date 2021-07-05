@@ -1,6 +1,6 @@
 function FavoritesPage(){
   return(
-    <div>Favorites Page!</div>
+    <div>Favorites Page! (Under Construction)</div>
   );
 }
 
