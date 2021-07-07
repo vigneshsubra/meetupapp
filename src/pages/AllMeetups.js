@@ -32,9 +32,6 @@ function AllMeetupsPage() {
     }
   }, []);
 
-
-  console.log(isLoading);
-
   return (
     <section>
       {isLoading ? <p>Loading...</p> : (
