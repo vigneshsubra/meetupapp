@@ -8,7 +8,7 @@ function FavoritesPage() {
 
   return (
     <section>
-      {favoriteCtx.totalFavorites === 0 ? <p>No favorites added yet! Start adding some?</p> : (
+      {favoriteCtx.totalFavorites === 0 ? <p>No favorites added yet! Start adding now?</p> : (
         <div>
           <h1>My Favotites!</h1>
           <MeetupList meetups={favoriteCtx.favorites} />
